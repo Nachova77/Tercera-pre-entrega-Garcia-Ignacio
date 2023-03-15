@@ -119,3 +119,29 @@ body {
     text-align: center;
     padding-top: 20px;
 }
+
+.delete-product {
+    cursor: pointer;
+}
+
+.cantidad-carrito {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 4px;
+    top: 50px;
+    right: 34px;
+    position: absolute;
+    display: none;
+}
+
+.sumar {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.restar {
+    cursor: pointer;
+    font-size: 20px;
+}
