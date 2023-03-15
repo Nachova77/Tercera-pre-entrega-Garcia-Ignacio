@@ -56,12 +56,6 @@
             eliminarProducto(product.id);
         })
 
-        // let eliminar = document.createElement('span');
-        // eliminar.innerText = 'X';
-        // eliminar.className = 'delete-product';
-        // carritoContent.append(eliminar);
-
-        // eliminar.addEventListener('click', eliminarProducto)
     })
 
     const total = carrito.reduce((acc, el)=> acc + el.precio * el.cantidad, 0);
